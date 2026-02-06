@@ -151,25 +151,27 @@ footer a {
 
 /* Footer Social Icons */
 .footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
   margin-bottom: 0.8rem;
 }
 
-.footer-social a {
-  color: white;
-  font-size: 1.6rem;
-  margin: 0 0.6rem;
-  text-decoration: none;
-  transition: transform 0.2s ease, color 0.2s ease;
+.footer-social a svg {
+  width: 32px;
+  height: 32px;
+  fill: white;
+  transition: transform 0.2s ease, fill 0.2s ease;
 }
 
-.footer-social a:hover {
+.footer-social a:hover svg {
   transform: scale(1.15);
 }
 
-.footer-social .fa-instagram:hover {
-  color: #E1306C;
+.footer-social a[aria-label="Instagram"]:hover svg {
+  fill: #E1306C;
 }
 
-.footer-social .fa-whatsapp:hover {
-  color: #25D366;
+.footer-social a[aria-label="WhatsApp"]:hover svg {
+  fill: #25D366;
 }
