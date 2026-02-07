@@ -211,3 +211,10 @@ footer a {
 .footer-social a[aria-label="Facebook"]:hover svg {
   fill: #1877f2;
 }
+
+.follow-us {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.3px;
+}
