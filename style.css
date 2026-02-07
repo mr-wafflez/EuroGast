@@ -218,3 +218,87 @@ footer a {
   margin-bottom: 0.3rem;
   letter-spacing: 0.3px;
 }
+
+/* Veranstaltungen */
+.event-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+}
+
+.event-main img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.event-content {
+  padding: 1.2rem;
+}
+
+.event-date {
+  font-size: 0.9rem;
+  color: #1e5f74;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.event-content h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.event-buttons {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.event-buttons a {
+  background-color: #1e5f74;
+  color: white;
+  padding: 0.5rem 1.1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.event-buttons a:hover {
+  background-color: #174a5a;
+}
+
+/* Weitere Termine */
+.event-list {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.event-list h4 {
+  margin-bottom: 0.8rem;
+  color: #1e5f74;
+}
+
+.event-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.event-list li {
+  margin: 0.4rem 0;
+}
+
+.event-list a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.event-list a:hover {
+  text-decoration: underline;
+}
