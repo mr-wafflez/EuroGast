@@ -233,8 +233,16 @@ footer a {
 
 .event-main img {
   width: 100%;
-  height: auto;
+  height: 260px;        /* Desktop-Höhe */
+  object-fit: cover;   /* wichtigster Teil */
+  object-position: center;
   display: block;
+}
+
+@media (max-width: 600px) {
+  .event-main img {
+    height: 180px;
+  }
 }
 
 .event-content {
