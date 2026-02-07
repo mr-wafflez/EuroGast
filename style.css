@@ -207,3 +207,7 @@ footer a {
 .footer-social a[aria-label="WhatsApp"]:hover svg {
   fill: #25d366;
 }
+
+.footer-social a[aria-label="Facebook"]:hover svg {
+  fill: #1877f2;
+}
